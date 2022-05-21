@@ -278,17 +278,20 @@ h1,h2,h3,h4,h5,h6{
 			&:not(:last-child){
 				margin-right: 30px;
 			}
-			img{
-				margin-bottom: 30px;
-			}
-			h3{
-				margin-bottom: 10px;
-				font-weight: 500;
-			}
-			p{
-				margin-bottom: 30px;
-			}
 		}
+}
+
+.iteam-card {
+
+	&__img {}
+	&__text {
+		padding: 30px;
+	}
+	&__title {
+		margin-bottom: 10px;
+		font-weight: 500;
+	}
+	&__subtitle {}
 }
 
 // -----------footer -----------
@@ -381,7 +384,7 @@ h1,h2,h3,h4,h5,h6{
 	}	
 }
 
-// -----------  portfolio  -----------
+// -----------  section portfolio  -----------
 .portfolio {
 
 	&__title{}

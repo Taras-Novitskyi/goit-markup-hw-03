@@ -306,17 +306,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 30px;
 }
 
-.team__iteam img {
-  margin-bottom: 30px;
+.iteam-card__text {
+  padding: 30px;
 }
 
-.team__iteam h3 {
+.iteam-card__title {
   margin-bottom: 10px;
   font-weight: 500;
-}
-
-.team__iteam p {
-  margin-bottom: 30px;
 }
 
 .footer {
